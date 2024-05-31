@@ -41,6 +41,8 @@ O código do jogo é dividido em diversos blocos, cada um representando uma func
 4. **Comer Frutas**: Colete todos as frutas para aumentar sua pontuação.
 5. **Vencer o Jogo**: Coma todos as Frutas sem tocar nos fantasmas para vencer.
 
+**Link Direto para Acesso**
+https://scratch.mit.edu/projects/1030063964/
 ## Conclusão
 
 Este projeto é uma excelente maneira de aplicar os conceitos aprendidos na disciplina de Lógica Aplicada, utilizando o Scratch para criar um jogo interativo e divertido. Espero que você goste de jogar tanto quanto gostei de desenvolver!
