@@ -7,10 +7,11 @@
 
 int main() {
 
-    float nota, sum, med, maior7;
+    float nota, sum, maior7, count, med;
 maior7 = 0;
+sum = 0;
     printf("Informe a primeira nota: ");
-    scanf("%f", nota);
+    scanf("%f", &nota);
 
         while(nota >= 0.0 && nota <= 10.0 ) {
 
@@ -18,11 +19,13 @@ maior7 = 0;
             if(nota >= 7.0) {
             maior7++;
             }
-    printf("Informe a primeira nota: ");
-    scanf("%f", nota);
+    printf("Informe a proxima nota: ");
+    scanf("%f", &nota);
+        count++;
         }
     printf("Nota Invalida \n");
-    printf("A média das notas foi %.2f e a quantidade de notas maiores que 7 são %.2f", sum, maior7);
+    med = sum / count;
+    printf("A média das notas foi %.2f e a quantidade de notas maiores que 7 são %.2f", med, maior7);
 
     return 0;
 }
